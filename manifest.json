@@ -1,0 +1,10 @@
+{
+  "name": "Alcremytyl-Risky_Returns_Test_Mod",
+  "version_number": "0.0.1",
+  "website_url": "",
+  "description": "Just testing Risk of Rain Returns mod development.",
+  "dependencies": [
+    "ReturnOfModding-ReturnOfModding-1.0.34",
+    "RoRRModdingToolkit-RoRR_Modding_Toolkit-1.0.16"
+  ]
+}

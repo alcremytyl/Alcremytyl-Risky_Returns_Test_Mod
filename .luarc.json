@@ -1,0 +1,9 @@
+{
+  "Lua": {
+    "diagnostics": {
+      "enable": true,
+      "globals": ["myGlobal"],
+      "disable": ["lowercase-global"]
+    }
+  }
+}
