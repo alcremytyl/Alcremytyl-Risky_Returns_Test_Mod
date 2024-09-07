@@ -1,0 +1,46 @@
+--- @meta
+--- @class ImGuiInputTextFlags
+ImGuiInputTextFlags = {
+	--- @type integer
+	CharsDecimal = ...,
+	--- @type integer
+	CharsNoBlank = ...,
+	--- @type integer
+	CharsUppercase = ...,
+	--- @type integer
+	EnterReturnsTrue = ...,
+	--- @type integer
+	NoHorizontalScroll = ...,
+	--- @type integer
+	CallbackCharFilter = ...,
+	--- @type integer
+	AutoSelectAll = ...,
+	--- @type integer
+	AlwaysOverwrite = ...,
+	--- @type integer
+	None = ...,
+	--- @type integer
+	CallbackCompletion = ...,
+	--- @type integer
+	AllowTabInput = ...,
+	--- @type integer
+	CallbackResize = ...,
+	--- @type integer
+	CharsHexadecimal = ...,
+	--- @type integer
+	ReadOnly = ...,
+	--- @type integer
+	CharsScientific = ...,
+	--- @type integer
+	CallbackAlways = ...,
+	--- @type integer
+	Password = ...,
+	--- @type integer
+	NoUndoRedo = ...,
+	--- @type integer
+	CallbackEdit = ...,
+	--- @type integer
+	CtrlEnterForNewLine = ...,
+	--- @type integer
+	CallbackHistory = ...,
+}

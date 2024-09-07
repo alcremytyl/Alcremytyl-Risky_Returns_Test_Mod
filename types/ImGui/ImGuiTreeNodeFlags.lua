@@ -1,0 +1,36 @@
+--- @meta
+--- @enum ImGuiTreeNodeFlags
+ImGuiTreeNodeFlags = {
+	--- @type integer
+	Leaf = ...,
+	--- @type integer
+	CollapsingHeader = ...,
+	--- @type integer
+	None = ...,
+	--- @type integer
+	Framed = ...,
+	--- @type integer
+	OpenOnDoubleClick = ...,
+	--- @type integer
+	FramePadding = ...,
+	--- @type integer
+	NoAutoOpenOnLog = ...,
+	--- @type integer
+	DefaultOpen = ...,
+	--- @type integer
+	SpanAvailWidth = ...,
+	--- @type integer
+	AllowItemOverlap = ...,
+	--- @type integer
+	NavLeftJumpsBackHere = ...,
+	--- @type integer
+	OpenOnArrow = ...,
+	--- @type integer
+	Selected = ...,
+	--- @type integer
+	NoTreePushOnOpen = ...,
+	--- @type integer
+	Bullet = ...,
+	--- @type integer
+	SpanFullWidth = ...,
+}

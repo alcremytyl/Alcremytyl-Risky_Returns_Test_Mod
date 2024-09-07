@@ -1,15 +1,15 @@
---- @param t table
---- @see github https://gist.github.com/justnom/9816256#file-table_to_string-lua
-function table_to_string(t, indent)
-    indent = indent or 0
-    local formatting = string.rep(" ", indent)
-    for k, v in pairs(t) do
-        if type(v) == "table" then
-            print(formatting .. "[" .. tostring(k) .. "] = {")
-            table_to_string(v, indent + 2)
-            print(formatting .. "}")
-        else
-            print(formatting .. "[" .. tostring(k) .. "] = " .. tostring(v))
-        end
+--- @return string string
+function dump(o)
+  if type(o) == "table" then
+    local s = "{"
+    for k, v in pairs(o) do
+      if type(k) ~= "number" then
+        k = '"' .. k .. '"'
+      end
+      s = s .. "[" .. k .. "] = " .. dump(v) .. ","
     end
+    return "\n\n" .. s .. "}" .. "\n\n"
+  else
+    return "\n\n" .. tostring(o) .. "\n\n"
+  end
 end
